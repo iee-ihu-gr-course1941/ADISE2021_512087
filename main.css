@@ -1,0 +1,25 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#mainCanvas {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #c3c3c3;
+  margin: 10px;
+}
+
+.coinHolder {
+  width: 200px;
+  height: 500px;
+  background-color: green;
+  margin: 10px;
+}
